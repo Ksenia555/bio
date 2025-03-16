@@ -37,5 +37,5 @@ jobs:
           cmake ..
           make
           echo make complete
-          ./Main/BioApplication
-          ./test/BioTest
+          ./Main/BirchApplication
+          ./test/BirchTest
