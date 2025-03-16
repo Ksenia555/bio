@@ -37,9 +37,8 @@ jobs:
           cmake ..
           make
           echo make complete
-          ./Main/Biosistem
-          ./test/BirchTest
+          ./main/Debug/Biomain.exe
+          ./test/Debug/BirchTest.exe
+
           
-      - name: List files in build directory
-        working-directory: ./build
-        run: ls -R
+
